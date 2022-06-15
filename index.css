@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    background-color: #275986;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.page-result {
+    visibility: hidden;
+}
+
+.title-options,
+.text-options {
+    display: flex;
+    background-color: white;
+    width: 900px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    align-items: center;
+}
+
+.title-input,
+.font-title,
+.text-input,
+.font-text {
+    margin: 20px;
+    color: grey;
+}
+
+.title-input,
+.text-input {
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+    height: 35px;
+}
+
+.title-input:focus,
+.text-input:focus,
+.background-color-input:focus {
+    outline: none;
+    border: 2px solid #3983c6;
+}
+
+.title-input::placeholder,
+.text-input::placeholder{
+    color: grey;
+}
+
+.text-size-radio, .title-size-radio{
+    color: grey;
+}
+
+.text-size-radio>p, .title-size-radio>p{
+    margin-left: 33%;
+    color: grey;
+}
+
+#text-font, #title-font{
+    color: grey;
+}
+
+.background-color-input {
+    margin: 20px;
+    padding-left: 10px;
+    height: 30px;
+    width: 200px;
+    border: 2px solid #275986;
+    border-radius: 10px;
+
+}
