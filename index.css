@@ -19,9 +19,6 @@ body {
     padding-top: 50px;
 }
 
-.page-result {
-    visibility: hidden;
-}
 
 .title-options,
 .text-options {
@@ -82,4 +79,38 @@ body {
     width: 200px;
     border: 2px solid #275986;
     border-radius: 10px;
+}
+
+.submit-button{
+    background-color: white;
+    color: #275986;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+
+}.submit-button:hover{
+    background-color: #69a1d3;
+    color: white;
+    border-color: #69a1d3;
+    cursor: pointer;
+}
+
+.page-result{
+    
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.text{
+    margin: 20px;
 }

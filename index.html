@@ -11,7 +11,7 @@
 
 <body>
     <div class="page">
-        <div class="options">
+        <div class="options" id="submit-page">
             <div class="title-options">
                 <input type="text" class="title-input" placeholder="Title" id="title-input" />
                 <input type="text" class="title-input" placeholder="Title Color" id="title-color" />
@@ -55,10 +55,11 @@
                 </div>
             </div>
             <input type="text" class="background-color-input" placeholder="Background Color" id="background-color" />
+            <button class="submit-button" id="submit" type="button">SUBMIT</button>
         </div>
-        <div class="page-result">
-            <h1 id="title" class="title">Title</h1>
-            <p id="text" class="text">Text</p>
+        <div class="page-result" id="result">
+            <h1 id="title" class="title"></h1>
+            <p id="text" class="text"></p>
         </div>
     </div>
 
